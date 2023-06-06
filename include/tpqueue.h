@@ -14,7 +14,6 @@ class TPQueue {
     ITEM* last;
     ITEM* create(const T& data, ITEM* next);
     void destroy(ITEM* item);
- 
  public:
     TPQueue() : head(nullptr), last(nullptr) {}
     ~TPQueue();
